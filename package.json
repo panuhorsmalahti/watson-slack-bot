@@ -1,0 +1,16 @@
+{
+  "name": "watson-slack-bot",
+  "version": "1.0.0",
+  "description": "Watson Conversation Slack Bot",
+  "main": "slack.js",
+  "dependencies": {
+    "@slack/client": "3.14.1",
+    "watson-developer-cloud": "2.42.0"
+  },
+  "scripts": {
+    "start": "node slack.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Panu Horsmalahti <panu.horsmalahti@iki.fi>",
+  "license": "MIT"
+}
